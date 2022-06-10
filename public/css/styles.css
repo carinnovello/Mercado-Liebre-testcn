@@ -25,7 +25,7 @@ div.top-header{
 }
 
 header div.top-header p{
-    width: 35%;
+    
     text-align: left;
     margin-top: 5px;
     align-self: center
@@ -59,17 +59,18 @@ header .form{
 header nav{
     display: none;
     font-size: 12px;
-    margin-left: 20px;
+  
 }
 
 header ul li{
     list-style-type: none;
+   
 }
 
 header ul li a{
     text-decoration: none;
     color: #000;
-}
+   }
 
 header .form .input{
     background-color: #FFF;
@@ -218,7 +219,7 @@ footer div em{
      font-weight: bold;}
 
 footer span{
-    padding-top: 30%;
+    padding: 30% 0% 5% 0%;
 }
 
 .botonlogin:hover{background-color:#0022AA} 
@@ -244,7 +245,7 @@ footer span{
         width: 50%;
     }
 
-    .products article:hover .description { display: block  }
+    .products article:hover .description {display: block;}
     
     main section article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -254,7 +255,20 @@ footer span{
     
     }
 
-    header nav{display: block}
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 2% 1%;
+    }
+
+    header nav ul{
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+
+    }
+
+    .izquierda{justify-self: flex-start;}
 
     div.burger-menu{display: none;}
 
@@ -263,13 +277,17 @@ footer span{
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
-
-
-
     }
    
-  
+  footer{
+       flex-direction: row; 
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+}
 
-    
+footer div{ width: 30%}    
+footer span{ padding: 2% ; text-align: left; width: 100%;}
+
+footer div i:hover{color:#39b54a ;}
 
 }

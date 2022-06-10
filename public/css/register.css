@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+
+
+form{
+     width: 90%;
+     box-sizing: border-box;
+    }
+
+.nombremail{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  
+
+}    
+
+
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    width: 190px;
+    justify-content: space-around;
+}
+
+.interests div label { margin-left:1%}
+
+.contraseña{
+    display: flex;
+    flex-direction: column;
+    width:70%
+}
+
+.foto{
+     font-size: 12px;
+    }
+
+.botones{
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     
+    }
+
+.botones input{ width: 30%}
+
+.botones input:hover{background-color:#0022AA; color: white}
+
+.fecha-domicilio p,
+.nombremail p{ color: red}
+
+

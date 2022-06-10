@@ -1,0 +1,22 @@
+.login form{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.login form input{ 
+    width: 70%;
+        
+}
+
+
+.login form input,
+.botonlogin{
+    padding: 1% 0%;
+    font-family: roboto;
+    border-radius: 5%;
+    border-color:  #ebebeb;
+    }
+
+.botonlogin:hover{ background-color:#0022AA; color: white}   
