@@ -85,7 +85,8 @@ header .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
-    width: 10%;
+    padding: 3px;
+    border-radius: 15%;
 }
 
 div.burger-menu{
@@ -245,13 +246,18 @@ footer span{
         width: 50%;
     }
 
-    .products article:hover .description {display: block;}
+    .products article:hover .description {
+        display: block;
+      
+    }
     
     main section article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
     }
 
     main section article:hover i{transform: rotate(-90deg);
+        transition: transform 2s;
     
     }
 
@@ -261,17 +267,20 @@ footer span{
         padding: 0% 2% 1%;
     }
 
+    .derecha {justify-content: flex-end;}
+
     header nav ul{
         display: flex;
         width: 40vw;
-        justify-content: space-between;
-
     }
 
-    .izquierda{justify-self: flex-start;}
+    header ul li {
+        list-style-type: none;
+        padding-left: 5%;
+ 
+}
 
-    div.burger-menu{display: none;}
-
+div.burger-menu{display: none;}
 }
 
 @media (min-width: 769px){

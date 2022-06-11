@@ -1,26 +1,42 @@
-*{
-    margin: 0px;
-    padding: 0px;    
-    box-sizing: border-box;
-}
 
 
 
-form{
+.register{background-color: white;}
+
+.formularioderegistro{
      width: 90%;
-     box-sizing: border-box;
+     background-color:  #ebebeb;
+     margin:auto;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     padding: 5% ;
+     font-family: roboto;
+     border-radius: 20px;
     }
+
+.formularioderegistro input{
+    font-family:roboto;
+    padding: 2%;
+    border-radius: 5px;
+    border: oldlace;
+}
 
 .nombremail{
     padding-top: 2%;
     display: flex;
     flex-direction: column;
-    width: 70%;
-  
 
+}
+
+.nombremail input,
+.fecha-domicilio input,
+.contraseña input{ width:100%
+  
 }    
 
-
+.archivo{ 
+     width: 100%;
+    font-size: 12px;}
 
 
 .profile{
@@ -35,12 +51,9 @@ form{
 .contraseña{
     display: flex;
     flex-direction: column;
-    width:70%
+    
 }
 
-.foto{
-     font-size: 12px;
-    }
 
 .botones{
      display: flex;
@@ -49,7 +62,7 @@ form{
      
     }
 
-.botones input{ width: 30%}
+.botones input{ width: 30%; background-color:  #1259c3 ;color: white}
 
 .botones input:hover{background-color:#0022AA; color: white}
 

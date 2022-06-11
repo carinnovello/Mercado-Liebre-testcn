@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/register.css">
         
     </head>
-    <body>
+    <body class="register">
         <header>
             <div class="top-header">
                 <div class="logo-form">
@@ -45,24 +45,23 @@
             </div>
         </header>
         <main class="register">
-            <form action="/" method="POST">
+            <form class="formularioderegistro" action="/" method="POST">
                 <div class="nombremail">
                 <input  type="text" name="name" placeholder="Nombre y apellido">
-                <p>campo obligatorio</p><br>
+                <p>campo requerido</p><br>
                 <input  type="text" name="user" placeholder="Nombre de usuario">
-                <p>campo obligatorio</p><br>
+                <p>campo requerido</p><br>
                 <input  type="email" name="email" placeholder="E-mail">
-                <p>campo obligatorio</p><br>
-                 </div><br>
+                <p>campo requerido</p><br>
+                 </div>
                 <div class="fecha-domicilio">
-                <label for="birth_date"><b>Fecha de nacimiento</b></label>
-                <br>
-                <br>
+                <label for="birth_date"><b>Fecha de nacimiento</b></label><br>
+                <br>              
                 <input type="date" name="birth_date" id="birth_date">
-                <p>campo obligatorio</p>
+                <p>campo requerido</p>
                 <br>
                 <input type="text" name="addres" placeholder="Domicilio">
-                <p>campo obligatorio</p><br>
+                <p>campo requerido</p><br>
                 </div>
                 <br>
                 <h4>Perfil del usuario</h4>
@@ -102,7 +101,7 @@
                 <h4>Elegí tu foto de usuario</h4>
                 <br>
                 <div class="foto">
-                <input type="file" name="avatar">
+                <input class="archivo" type="file" name="avatar">
                 </div>
                 <br>
                 <div class="contraseña">
@@ -114,7 +113,7 @@
                 <br>
                 <div class="botones">
                 <input class="boton" type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
+                <input class="boton" type="reset" value="Borrar">
                 </div>
                 <br>
                 <br>

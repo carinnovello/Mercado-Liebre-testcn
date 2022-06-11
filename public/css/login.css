@@ -1,22 +1,30 @@
-.login form{
-    padding-top: 5%;
+
+.login{
+    background-color: white;
+    font-family: roboto;
+}
+
+.formulario-de-ingreso{
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5%;
+    font-family: roboto;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    }
+}
 
-.login form input{ 
-    width: 70%;
-        
+.formulario-de-ingreso input{
+    font-family: roboto;
+    padding: 2%;
+    border-radius: 5px;
+    border: oldlace;
 }
 
 
-.login form input,
-.botonlogin{
-    padding: 1% 0%;
-    font-family: roboto;
-    border-radius: 5%;
-    border-color:  #ebebeb;
-    }
+.botonlogin{ background-color:  #1259c3 ;color: white} 
 
 .botonlogin:hover{ background-color:#0022AA; color: white}   
